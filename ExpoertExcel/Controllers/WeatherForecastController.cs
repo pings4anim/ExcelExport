@@ -48,7 +48,7 @@ namespace ExpoertExcel.Controllers
             return File(
                 bytes,
                 "text/csv",
-                $"PersonUploadSample.csv"
+                $"PersonUploadSamplet.csv"
             );
         }
     }
