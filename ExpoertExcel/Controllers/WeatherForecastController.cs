@@ -28,7 +28,7 @@ namespace ExpoertExcel.Controllers
         /// <param name="segmentItemId"></param>
         /// <param name="userId"></param>
         /// <returns></returns>
-        [HttpPost("PersonCsvSample")]
+        [HttpGet("PersonCsvSample")]
         [Produces("text/csv")]
         [ProducesResponseType(200, Type = typeof(FileContentResult))]
         public async Task<IActionResult> PersonCSVSample()
